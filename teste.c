@@ -23,7 +23,7 @@ MU_TEST(test_altura_muitoalta){
 
 MU_TEST(teste_de_controle_erro){
     double imc = calculo(70, 1.75);
-    mu_assert_double_eq(666, imc);
+    mu_assert_double_eq(-1, imc);
 }
 
 int main() {
